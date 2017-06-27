@@ -1,0 +1,25 @@
+{
+  "require": {
+    "php":">=7.0"
+  },
+  "name": "medandrew/multiexception",
+  "description": "Implementation of the multiexception pattern",
+  "keywords": ["multiexception", "exception"],
+  "license": "GNU GPL",
+  "authors": [
+    {
+      "name": "Andrew Cooper"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "repositories":[
+    {
+      "type":"git",
+      "url":"https://github.com/medandrew/multiexception"
+    }
+  ]
+}
