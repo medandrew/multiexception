@@ -4,7 +4,12 @@ namespace Medandrew\Multiexception;
 
 class MultiExceptions
     extends \Exception
+    implements \Iterator, \Countable, \ArrayAccess
 {
+    use Iterator;
+    use Count;
+    use ArrayAccess;
+
     protected $data = [];
 
     public function add(\Throwable $e)
