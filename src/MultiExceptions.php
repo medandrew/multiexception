@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exceptions;
+namespace Medandrew\Multiexception;
 
 class MultiExceptions
     extends \Exception

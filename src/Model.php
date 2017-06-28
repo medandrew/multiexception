@@ -1,9 +1,6 @@
 <?php
 
-namespace App\Models;
-
-use App\Traits\Iterator;
-use App\Exceptions\MultiExceptions;
+namespace Medandrew\Multiexception;
 
 /*
  * Class Model
